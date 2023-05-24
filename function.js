@@ -34,7 +34,7 @@ const questions = [
     {
         question : "mengapa beras saat sudah matang dinamakan nasi?",
         choiceA : "A. dari sono-nya",
-        choiceB : "B. lapar",
+        choiceB : "B. karena lapar",
         choiceC : "C. takdir",
         choiceD : "D. salah semua",
         correct : "B",
@@ -42,10 +42,10 @@ const questions = [
     {
         question : "menanam padi sebaiknya?",
         choiceA : "A. mundur",
-        choiceB : "B. maju",
+        choiceB : "B. maju seperti bu ....",
         choiceC : "C. maju mundur",
         choiceD : "D. kayang",
-        correct : "B",
+        correct : "A",
     },
     {
         question : "jika ada yang memberi pendapat saat sidang sebaiknya?",
@@ -63,6 +63,71 @@ const questions = [
         choiceD : "D. menidurinya",
         correct : "C",
     },
+    {
+        question : "mana hewan yang paling berbahaya saat ini ?",
+        choiceA : "A. kucing",
+        choiceB : "B. buaya",
+        choiceC : "C. banteng merah",
+        choiceD : "D. cicak",
+        correct : "C",
+    },
+    {
+        question : "pepatah pernah mengatakan'kita mau fokus UCL' tebak fans?",
+        choiceA : "A. decul",
+        choiceB : "B. citizen",
+        choiceC : "C. ipul",
+        choiceD : "D. kingmadrid",
+        correct : "D",
+    },
+    {
+        question : "tak kenal maka ?",
+        choiceA : "A. tak sayang",
+        choiceB : "B. ya ga kenal",
+        choiceC : "C. takabur",
+        choiceD : "D. tarkam",
+        correct : "B",
+    },
+    {
+        question : "untuk memenangkan suatu permainan sepak bola maka?",
+        choiceA : "A. kerja kelompok",
+        choiceB : "B. kerja sama wasit",
+        choiceC : "C. kerja sama tim",
+        choiceD : "D. kerja kerja kerja",
+        correct : "B",
+    },
+    {
+        question : "Daya tahan tubuh dapat terjaga secara optimal apabila ?",
+        choiceA : "A. banyak makan",
+        choiceB : "B. banyak tidur",
+        choiceC : "C. olahraga teratur",
+        choiceD : "D. banyak pacar",
+        correct : "D",
+    },
+    {
+        question : "Hari kiamat pasti ?",
+        choiceA : "A. terjadi",
+        choiceB : "B. seru",
+        choiceC : "C. menyeramkan",
+        choiceD : "D. ditunda jika bukan hari jumat",
+        correct : "D",
+    },
+    {
+        question : "Salah satu penyebab timbulnya cidera olahraga adalah kurangnya ?",
+        choiceA : "A. gizi",
+        choiceB : "B. kalsium",
+        choiceC : "C. kasih sayang",
+        choiceD : "D. vitamin",
+        correct : "C",
+    },
+    {
+        question : "Terdapat 20 ikan lele di empang setengah ikan lele tenggelam. Jadi, berapa banyak ikan lele yang tersisa ?",
+        choiceA : "A. nol",
+        choiceB : "B. tujuh",
+        choiceC : "C. dua puluh",
+        choiceD : "D. sepuluh",
+        correct : "C",
+    },
+    
 ];
 
 const question = document.getElementById("question");
